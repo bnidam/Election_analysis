@@ -43,5 +43,5 @@ The analysis of the election results for the additional tasks requested by the e
 - Denver County had the largest voter turnout.
 
 Below are the full results of the election audit, as produced in the text file "election_analysis.txt" and in GitBash:
-![Election Audit Results, text file]()
-![Election Audit Results, Git Bash]()
+![Election Audit Results, text file](https://github.com/bnidam/Election_analysis/blob/main/Resources/ElectionAuditResults_textfile.png)
+![Election Audit Results, Git Bash](https://github.com/bnidam/Election_analysis/blob/main/Resources/ElectionAuditResults_GitBash.png)
