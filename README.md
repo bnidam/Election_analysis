@@ -36,7 +36,11 @@ The election commission has requested additional information for this election a
 
 ## Challenge Summary
 The analysis of the election results for the additional tasks requested by the election board show:
-- The voter turnout by county were:
+- Voters in three counties cast votes in this election:
+    - Arapahoe
+    - Denver
+    - Jefferson
+- The voter turnout by county was:
     - Jefferson County: 10.5% of the total votes cast with 38,855 votes.
     - Denver County: 82.8% of the total votes cast with 306,055 votes.
     - Arapahoe County: 6.7% of the total votes cast with 24,801 votes.
