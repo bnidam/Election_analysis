@@ -49,3 +49,10 @@ The analysis of the election results for the additional tasks requested by the e
 Below are the full results of the election audit, as produced in the text file "election_analysis.txt" and in GitBash:
 ![Election Audit Results, text file](https://github.com/bnidam/Election_analysis/blob/main/Resources/ElectionAuditResults_textfile.png)
 ![Election Audit Results, Git Bash](https://github.com/bnidam/Election_analysis/blob/main/Resources/ElectionAuditResults_GitBash.png)
+
+## Election Audit Summary
+This script can be used to audit election results for any election where the votes cast have unique identifiers, such as the BallotID in this election. With a few modifications, this script could also be used to audit other elections results.
+
+One example would be for a referendum, if the voter reponses to the referendum are included in the data. Yes votes, No votes, and Did Not Answer votes could be totalled, reported as a percentage of all votes cast, and the winning choice declared in the same way that election results for the candidates is calculated in this audit. The script would have to be modified to identify the location of the referendum responses in the data in line 48: candidate_name = row[2].
+
+A second example would be to track voter turnout by school district instead of by county, if the school district of the voter casting the vote are in the data. The number of votes cast by each school district could be totalled, reported as a percentage of all votes cast, and the school district with the largest voter turnout declared. The script would have to be modified to identify the location of the school district names in the data in line 51: county_name = row[1].
